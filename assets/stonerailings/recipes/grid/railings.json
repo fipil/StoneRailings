@@ -4,7 +4,7 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -16,7 +16,7 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -28,8 +28,8 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
-			"R": { "type": "block", "code": "game:rock-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"R": { "type": "block", "code": "game:rock-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -41,8 +41,8 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
-			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -54,8 +54,8 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
-			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -67,8 +67,8 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
-			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
@@ -80,8 +80,8 @@
 		"ingredients": {
 			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
 			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
-			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
-			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material" },
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
 			"M": { "type": "item", "code": "game:mortar" }
 		},
 		"width": 3,
