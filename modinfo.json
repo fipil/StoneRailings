@@ -3,8 +3,9 @@
   "modid": "stonerailings",
   "name": "Stone Railings",
   "authors": ["Fipil"],
+  "side": "universal",
   "description": "Stone railings, especially a sloped ones to use with staircases.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "game": "1.17.0"
   }
