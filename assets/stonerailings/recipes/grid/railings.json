@@ -1,0 +1,91 @@
+[
+	{
+		"ingredientPattern": "HC_,SSS,SMS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "straightrailing-{material}-north-free",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HCS,_SS,SMS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "slopingrailingtop-{material}-north-free",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HCS,MSS,SRS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"R": { "type": "block", "code": "game:rock-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "slopingrailingbottom-rock-{material}-north-free",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HCS,MSS,SRS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "slopingrailingbottom-brick-{material}-north-free",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HCS,MSS,SRS",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "slopingrailingbottom-cobble-{material}-north-free",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HC_,SSS,MR_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"R": { "type": "block", "code": "game:cobblestone-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "straightrailingbottom-cobble-{material}",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HC_,SSS,MR_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material" },
+			"R": { "type": "block", "code": "game:stonebricks-*", "name": "material" },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "straightrailingbottom-brick-{material}",	"quantity": 2	}
+	}
+]

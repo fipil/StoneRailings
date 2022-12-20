@@ -1,0 +1,80 @@
+{
+	"code": "slopingrailingtop",
+	"blockmaterial": "Stone",
+	"handbook": {	"groupBy": [ "slopingrailingtop-*" ]	},	
+	"drawtypeByType": {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer"
+	},
+	"behaviors": [ { name: "HorizontalOrientable" } ],
+	"creativeinventory": { "general": ["*-north-free"], "construction": ["*-north-free"] }, 
+	"shapeByType": {
+		"*-north-free": { base: "block/slopingrailingtop", rotateY:-90 },
+		"*-east-free": { base: "block/slopingrailingtop", rotateY:180 },
+		"*-south-free": { base: "block/slopingrailingtop", rotateY:90 },
+		"*-west-free": { base: "block/slopingrailingtop", rotateY:0 },
+		"*-north-snow": { base: "block/snow-slopingrailingtop", rotateY:-90 },
+		"*-east-snow": { base: "block/snow-slopingrailingtop", rotateY:180 },
+		"*-south-snow": { base: "block/snow-slopingrailingtop", rotateY:90 },
+		"*-west-snow": { base: "block/snow-slopingrailingtop", rotateY:0 }
+	},
+	"sidesolid": {
+		"all": "false"
+	},
+	"sideopaque": {
+		"all": "false"
+	},
+	"rainPermeable": "true",
+	"variantgroups": [
+		{ "code":"rock", "states": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+		{ "code":"side", "states": ["north", "east", "south","west"] },
+		{ "code":"cover", "states": ["free", "snow"] }
+	],
+	"texturesByType": {
+		"*-free": {
+			"all": {
+				"base": "game:block/stone/rock/{rock}1",
+				"alternates": [
+					{ "base": "game:block/stone/rock/{rock}2" },
+					{ "base": "game:block/stone/rock/{rock}3" },
+					{ "base": "game:block/stone/rock/{rock}4" }
+				],
+			}
+		},
+		"*-snow": {
+			"pilars": {
+				"base": "game:block/stone/rock/{rock}1",
+				"alternates": [
+					{ "base": "game:block/stone/rock/{rock}2" },
+					{ "base": "game:block/stone/rock/{rock}3" },
+					{ "base": "game:block/stone/rock/{rock}4" }
+				],
+			},
+			"snowcover": {
+				"base": "game:block/snow/normal1",
+				"alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}],
+			}
+		},
+	},
+	"resistance": 3.5,
+	"sounds": {
+		"walk": "game:walk/stone"
+	},
+	"collisionSelectionBoxes": [{ 
+				x1: 0, y1: 0, z1: 0.31, x2: 0.5, y2: 1, z2: 0.69, 
+				rotateYByType: {
+					"*-north-*": -90,
+					"*-east-*": 180,
+					"*-south-*": 90,
+					"*-west-*": 0,
+				}
+			},{ 
+				x1: 0.5, y1: 0, z1: 0.31, x2: 1, y2: 0.5, z2: 0.69, 
+				rotateYByType: {
+					"*-north-*": -90,
+					"*-east-*": 180,
+					"*-south-*": 90,
+					"*-west-*": 0,
+				}
+			}]
+}

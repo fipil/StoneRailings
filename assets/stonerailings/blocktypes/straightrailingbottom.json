@@ -1,0 +1,45 @@
+{
+	"code": "straightrailingbottom",
+	"blockmaterial": "Stone",
+	"drawtype": "json",
+	"handbook": {	"groupBy": [ "straightrailingbottom-*" ]	},	
+	"creativeinventory": { "general": ["*"], "construction": ["*"] },
+	"shape": { base: "block/straightrailingbottom" },
+	"sidesolid": {
+		"all": "true"
+	},
+	"sideopaque": {
+		"all": "true"
+	},
+	"variantgroups": [
+		{ "code":"type", "states": ["cobble","brick"]  },
+		{ "code":"material", "states": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] }
+	],
+	"texturesByType": {
+		"*-cobble-*": {
+			"basis": {
+				"base": "game:block/stone/cobblestone/{material}1",
+				"alternates": [{"base": "game:block/stone/cobblestone/{material}2"}, {"base": "game:block/stone/cobblestone/{material}3"}, {"base": "game:block/stone/cobblestone/{material}4"}, {"base": "game:block/stone/cobblestone/{material}5"}],
+			},
+			"pilars": {
+				"base": "game:block/stone/rock/{material}*",
+				"alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]
+			}
+		},
+		"*-brick-*": {
+			"basis": {
+				"base": "game:block/stone/brick/{material}1",
+				"alternates": [{"base": "game:block/stone/brick/{material}2"}, {"base": "game:block/stone/brick/{material}3"}],
+			},
+			"pilars": {
+				"base": "game:block/stone/rock/{material}1",
+				"alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]
+			}
+		}
+	},
+
+	"resistance": 3.5,
+	"sounds": {
+		"walk": "game:walk/stone"
+	}			
+}

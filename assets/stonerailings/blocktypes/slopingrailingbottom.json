@@ -1,0 +1,66 @@
+{
+	"code": "slopingrailingbottom", 
+	"blockmaterial": "Stone", 
+	"drawtypeByType": {"*-free": "JSON", "*-snow": "JSONAndSnowLayer"}, 
+	"handbook": {"groupBy": ["slopingrailingbottom-*"]}, 
+	"behaviors": [{"name": "HorizontalOrientable"}], 
+	"creativeinventory": {"general": ["*-north-free"], "construction": ["*-north-free"]}, 
+	"shapeByType": {
+		"*-north-free": {"base": "block/slopingrailingbottom", "rotateY": -90}, 
+		"*-east-free": {"base": "block/slopingrailingbottom", "rotateY": 180}, 
+		"*-south-free": {"base": "block/slopingrailingbottom", "rotateY": 90}, 
+		"*-west-free": {"base": "block/slopingrailingbottom", "rotateY": 0}, 
+		"*-north-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": -90}, 
+		"*-east-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": 180}, 
+		"*-south-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": 90}, 
+		"*-west-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": 0}
+	}, 
+	"rainPermeable": "false", 
+	"sidesolid": {"all": "false"}, 
+	"sideopaque": {"all": "false"}, 
+	"variantgroups": [
+		{"code": "type"    , "states": ["rock"   , "cobble"   , "brick"                                                                                                              ]}, 
+		{"code": "material", "states": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"]}, 
+		{"code": "side"    , "states": ["north"  , "east"     , "south"    , "west"                                                                                                  ]}, 
+		{"code": "cover"   , "states": ["free"   , "snow"                                                                                                                            ]}
+	], 
+	"texturesByType": {
+		"*-rock-*-free": {"all": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}}, 
+		"*-rock-*-snow": {
+			"basis": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
+			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
+			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+		}, 
+		"*-cobble-*-free": {
+			"basis": {
+				"base": "game:block/stone/cobblestone/{material}1", 
+				"alternates": [{"base": "game:block/stone/cobblestone/{material}2"}, {"base": "game:block/stone/cobblestone/{material}3"}, {"base": "game:block/stone/cobblestone/{material}4"}, {"base": "game:block/stone/cobblestone/{material}5"}]
+			}, 
+			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}
+		}, 
+		"*-cobble-*-snow": {
+			"basis": {
+				"base": "game:block/stone/cobblestone/{material}1", 
+				"alternates": [{"base": "game:block/stone/cobblestone/{material}2"}, {"base": "game:block/stone/cobblestone/{material}3"}, {"base": "game:block/stone/cobblestone/{material}4"}, {"base": "game:block/stone/cobblestone/{material}5"}]
+			}, 
+			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
+			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+		}, 
+		"*-brick-*-free": {
+			"basis": {"base": "game:block/stone/brick/{material}1", "alternates": [{"base": "game:block/stone/brick/{material}2"}, {"base": "game:block/stone/brick/{material}3"}]}, 
+			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}
+		}, 
+		"*-brick-*-snow": {
+			"basis": {"base": "game:block/stone/brick/{material}1", "alternates": [{"base": "game:block/stone/brick/{material}2"}, {"base": "game:block/stone/brick/{material}3"}]}, 
+			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
+			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+		}
+	}, 
+	"resistance": 3.5, 
+	"sounds": {"walk": "game:walk/stone"}, 
+	"collisionSelectionBoxes": [
+		{"x1": 0.0, "y1": 0.0, "z1": 0.00, "x2": 0.5, "y2": 1.0, "z2": 1.00, "rotateYByType": {"*-north-*": -90, "*-east-*": 180, "*-south-*": 90, "*-west-*": 0}}, 
+		{"x1": 0.5, "y1": 0.0, "z1": 0.00, "x2": 1.0, "y2": 0.5, "z2": 1.00, "rotateYByType": {"*-north-*": -90, "*-east-*": 180, "*-south-*": 90, "*-west-*": 0}}, 
+		{"x1": 0.5, "y1": 0.5, "z1": 0.31, "x2": 1.0, "y2": 1.0, "z2": 0.69, "rotateYByType": {"*-north-*": -90, "*-east-*": 180, "*-south-*": 90, "*-west-*": 0}}
+	]
+}
