@@ -10,7 +10,9 @@ $location = Get-Location
 # Preparing mod archive
 New-Item -ItemType Directory -Force -Path mods
 Remove-Item mods\*.zip
-Compress-Archive -Path assets,modinfo.json,modicon.png -DestinationPath mods\$zipname
+# DO NOT USE the Compress-Archive for creating the package - it produces linux incompatible zip archives!!! (unless you have powershell v6.2.1 or above, where it's fixed)
+# Rather use the 7zip, which is okay.
+& "C:\Program Files\7-Zip\7z.exe" a -tzip mods\$zipname "modinfo.json" "modicon.png" "assets\" -aoa
 
 # Running Vintage Story Server
 $arguments = "--openWorld=`"test$modname`" -pcreativebuilding --addModPath=`"$location\mods`" --dataPath $vsDataPath --tracelog"
