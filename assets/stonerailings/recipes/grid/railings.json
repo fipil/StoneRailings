@@ -87,5 +87,17 @@
 		"width": 3,
 		"height": 3,
 		"output": {	"type": "block",	"code": "straightrailingbottom-brick-{material}",	"quantity": 2	}
+	},
+	{
+		"ingredientPattern": "HC_,SSS,SM_",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:chisel-*",	"isTool": true, "toolDurabilityCost": 3	},
+			"H": { "type": "item", "code": "game:hammer-*",	"isTool": true, "toolDurabilityCost": 2	},
+			"S": { "type": "item", "code": "game:stone-*", "name": "material", "allowedVariants": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"] },
+			"M": { "type": "item", "code": "game:mortar" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": {	"type": "block",	"code": "cornerrailing-{material}-north-free",	"quantity": 2	}
 	}
 ]
