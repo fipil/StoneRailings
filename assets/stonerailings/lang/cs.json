@@ -93,5 +93,19 @@
   "block-slopingrailingtop-bauxite-*": "Šikmé bauxitové zábradlí",
   "block-straightrailing-bauxite-*": "Bauxitové zábradlí",
   "block-straightrailingbottom-cobble-bauxite": "Bauxitové zábradlí na kamenech (základna)",
-  "block-straightrailingbottom-brick-bauxite": "Bauxitové zábradlí na cihle (základna)"
+  "block-straightrailingbottom-brick-bauxite": "Bauxitové zábradlí na cihle (základna)",
+  
+  "block-cornerrailing-granite-*": "Žulové rohové zábradlí",
+  "block-cornerrailing-sandstone-*": "Pískovcové rohové zábradlí",
+  "block-cornerrailing-limestone-*": "Vápencové rohové zábradlí",
+  "block-cornerrailing-peridotite-*": "Peridotitové rohové zábradlí",
+  "block-cornerrailing-phyllite-*": "Fylitové rohové zábradlí",
+  "block-cornerrailing-basalt-*": "Čedičové rohové zábradlí",
+  "block-cornerrailing-claystone-*": "Jílovcové rohové zábradlí",
+  "block-cornerrailing-conglomerate-*": "Slepencové rohové zábradlí",
+  "block-cornerrailing-chalk-*": "Křídové rohové zábradlí",
+  "block-cornerrailing-chert-*": "Rohovcové rohové zábradlí",
+  "block-cornerrailing-andesite-*": "Andezitové rohové zábradlí",
+  "block-cornerrailing-bauxite-*": "Bauxitové rohové zábradlí"
+
 }

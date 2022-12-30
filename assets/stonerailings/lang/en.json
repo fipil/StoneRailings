@@ -94,4 +94,18 @@
   "block-straightrailing-bauxite-*": "Bauxite railing",
   "block-straightrailingbottom-cobble-bauxite": "Bauxite cobble railing base",
   "block-straightrailingbottom-brick-bauxite": "Bauxite brick railing base",
+
+  "block-cornerrailing-granite-*": "Granite corner railing",
+  "block-cornerrailing-sandstone-*": "Sandstone corner railing",
+  "block-cornerrailing-limestone-*": "Limestone corner railing",
+  "block-cornerrailing-peridotite-*": "Peridotite corner railing",
+  "block-cornerrailing-phyllite-*": "Phyllite corner railing",
+  "block-cornerrailing-basalt-*": "Basalt corner railing",
+  "block-cornerrailing-claystone-*": "Claystone corner railing",
+  "block-cornerrailing-conglomerate-*": "Conglomerate corner railing",
+  "block-cornerrailing-chalk-*": "Chalk corner railing",
+  "block-cornerrailing-chert-*": "Chert corner railing",
+  "block-cornerrailing-andesite-*": "Andesite corner railing",
+  "block-cornerrailing-bauxite-*": "Bauxite corner railing"
+
 }

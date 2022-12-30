@@ -1,25 +1,25 @@
 {
-	"code": "slopingrailingtop",
+	"code": "cornerrailing",
 	"blockmaterial": "Stone",
-	"handbook": {	"groupBy": [ "slopingrailingtop-*" ]	},	
+	"handbook": {	"groupBy": [ "cornerrailing-*" ]	},	
 	"drawtypeByType": {
 		"*-free": "JSON",
 		"*-snow": "JSONAndSnowLayer"
 	},
-	"behaviors": [ { "name": "HorizontalOrientable" } ],
+	"behaviors": [ { "name": "HorizontalOrientable" }, {"name": "CanAttach", "properties": { "sides": ["up"] } }, { "name": "RopeTieable" } ],
 	"creativeinventory": { "general": ["*-north-free"], "construction": ["*-north-free"] }, 
 	"shapeByType": {
-		"*-north-free": { "base": "block/slopingrailingtop", "rotateY":-90 },
-		"*-east-free": { "base": "block/slopingrailingtop", "rotateY":180 },
-		"*-south-free": { "base": "block/slopingrailingtop", "rotateY":90 },
-		"*-west-free": { "base": "block/slopingrailingtop", "rotateY":0 },
-		"*-north-snow": { "base": "block/snow-slopingrailingtop", "rotateY":-90 },
-		"*-east-snow": { "base": "block/snow-slopingrailingtop", "rotateY":180 },
-		"*-south-snow": { "base": "block/snow-slopingrailingtop", "rotateY":90 },
-		"*-west-snow": { "base": "block/snow-slopingrailingtop", "rotateY":0 }
+		"*-north-free": { "base": "block/cornerrailing", "rotateY":-90 },
+		"*-east-free": { "base": "block/cornerrailing", "rotateY":180 },
+		"*-south-free": { "base": "block/cornerrailing", "rotateY":90 },
+		"*-west-free": { "base": "block/cornerrailing", "rotateY":0 },
+		"*-north-snow": { "base": "block/snow-cornerrailing", "rotateY":-90 },
+		"*-east-snow": { "base": "block/snow-cornerrailing", "rotateY":180 },
+		"*-south-snow": { "base": "block/snow-cornerrailing", "rotateY":90 },
+		"*-west-snow": { "base": "block/snow-cornerrailing", "rotateY":0 }
 	},
 	"sidesolid": {
-		"all": "false"
+		"all": "false", "up": "false"
 	},
 	"sideopaque": {
 		"all": "false"
@@ -55,20 +55,13 @@
 			}
 		}
 	},
+
 	"resistance": 3.5,
 	"sounds": {
 		"walk": "game:walk/stone"
 	},
 	"collisionSelectionBoxes": [{ 
-				"x1": 0, "y1": 0, "z1": 0.31, "x2": 0.5, "y2": 1, "z2": 0.69, 
-				"rotateYByType": {
-					"*-north-*": -90,
-					"*-east-*": 180,
-					"*-south-*": 90,
-					"*-west-*": 0
-				}
-			},{ 
-				"x1": 0.5, "y1": 0, "z1": 0.31, "x2": 1, "y2": 0.5, "z2": 0.69, 
+				"x1": 0, "y1": 0, "z1": 0.31, "x2": 0.69, "y2": 1, "z2": 1, 
 				"rotateYByType": {
 					"*-north-*": -90,
 					"*-east-*": 180,

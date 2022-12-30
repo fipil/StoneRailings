@@ -15,7 +15,6 @@
 		"*-south-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": 90}, 
 		"*-west-snow": {"base": "block/snow-slopingrailingbottom", "rotateY": 0}
 	}, 
-	"rainPermeable": "false", 
 	"sidesolid": {"all": "false"}, 
 	"sideopaque": {"all": "false"}, 
 	"variantgroups": [

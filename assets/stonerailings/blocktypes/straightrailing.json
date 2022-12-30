@@ -6,17 +6,17 @@
 		"*-free": "JSON",
 		"*-snow": "JSONAndSnowLayer"
 	},
-	"behaviors": [ { name: "HorizontalOrientable" }, {name: "CanAttach", properties: { sides: ["up"] } }, { name: "RopeTieable" } ],
+	"behaviors": [ { "name": "HorizontalOrientable" }, {"name": "CanAttach", "properties": { "sides": ["up"] } }, { "name": "RopeTieable" } ],
 	"creativeinventory": { "general": ["*-north-free"], "construction": ["*-north-free"] }, 
 	"shapeByType": {
-		"*-north-free": { base: "block/straightrailing", rotateY:-90 },
-		"*-east-free": { base: "block/straightrailing", rotateY:180 },
-		"*-south-free": { base: "block/straightrailing", rotateY:90 },
-		"*-west-free": { base: "block/straightrailing", rotateY:0 },
-		"*-north-snow": { base: "block/snow-straightrailing", rotateY:-90 },
-		"*-east-snow": { base: "block/snow-straightrailing", rotateY:180 },
-		"*-south-snow": { base: "block/snow-straightrailing", rotateY:90 },
-		"*-west-snow": { base: "block/snow-straightrailing", rotateY:0 }
+		"*-north-free": { "base": "block/straightrailing", "rotateY":-90 },
+		"*-east-free": { "base": "block/straightrailing", "rotateY":180 },
+		"*-south-free": { "base": "block/straightrailing", "rotateY":90 },
+		"*-west-free": { "base": "block/straightrailing", "rotateY":0 },
+		"*-north-snow": { "base": "block/snow-straightrailing", "rotateY":-90 },
+		"*-east-snow": { "base": "block/snow-straightrailing", "rotateY":180 },
+		"*-south-snow": { "base": "block/snow-straightrailing", "rotateY":90 },
+		"*-west-snow": { "base": "block/snow-straightrailing", "rotateY":0 }
 	},
 	"sidesolid": {
 		"all": "false", "up": "false"
@@ -37,7 +37,7 @@
 					{ "base": "game:block/stone/rock/{rock}2" },
 					{ "base": "game:block/stone/rock/{rock}3" },
 					{ "base": "game:block/stone/rock/{rock}4" }
-				],
+				]
 			}
 		},
 		"*-snow": {
@@ -47,13 +47,13 @@
 					{ "base": "game:block/stone/rock/{rock}2" },
 					{ "base": "game:block/stone/rock/{rock}3" },
 					{ "base": "game:block/stone/rock/{rock}4" }
-				],
+				]
 			},
 			"snowcover": {
 				"base": "game:block/snow/normal1",
-				"alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}],
+				"alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]
 			}
-		},
+		}
 	},
 
 	"resistance": 3.5,
@@ -61,12 +61,12 @@
 		"walk": "game:walk/stone"
 	},
 	"collisionSelectionBoxes": [{ 
-				x1: 0, y1: 0, z1: 0.31, x2: 1, y2: 1, z2: 0.69, 
-				rotateYByType: {
+				"x1": 0, "y1": 0, "z1": 0.31, "x2": 1, "y2": 1, "z2": 0.69, 
+				"rotateYByType": {
 					"*-north-*": -90,
 					"*-east-*": 180,
 					"*-south-*": 90,
-					"*-west-*": 0,
+					"*-west-*": 0
 				}
 			}]
 }
