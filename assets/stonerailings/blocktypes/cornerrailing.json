@@ -50,8 +50,8 @@
 				]
 			},
 			"snowcover": {
-				"base": "game:block/snow/normal1",
-				"alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]
+				"base": "game:block/liquid/snow/normal1",
+				"alternates": [{"base": "game:block/liquid/snow/normal2"}, {"base": "game:block/liquid/snow/normal3"}, {"base": "game:block/liquid/snow/normal4"}, {"base": "game:block/liquid/snow/normal5"}, {"base": "game:block/liquid/snow/normal6"}]
 			}
 		}
 	},

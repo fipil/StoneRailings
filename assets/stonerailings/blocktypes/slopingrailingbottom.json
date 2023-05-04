@@ -28,7 +28,7 @@
 		"*-rock-*-snow": {
 			"basis": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
 			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
-			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+			"snowcover": {"base": "game:block/liquid/snow/normal1", "alternates": [{"base": "game:block/liquid/snow/normal2"}, {"base": "game:block/liquid/snow/normal3"}, {"base": "game:block/liquid/snow/normal4"}, {"base": "game:block/liquid/snow/normal5"}, {"base": "game:block/liquid/snow/normal6"}]}
 		}, 
 		"*-cobble-*-free": {
 			"basis": {
@@ -43,7 +43,7 @@
 				"alternates": [{"base": "game:block/stone/cobblestone/{material}2"}, {"base": "game:block/stone/cobblestone/{material}3"}, {"base": "game:block/stone/cobblestone/{material}4"}, {"base": "game:block/stone/cobblestone/{material}5"}]
 			}, 
 			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
-			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+			"snowcover": {"base": "game:block/liquid/snow/normal1", "alternates": [{"base": "game:block/liquid/snow/normal2"}, {"base": "game:block/liquid/snow/normal3"}, {"base": "game:block/liquid/snow/normal4"}, {"base": "game:block/liquid/snow/normal5"}, {"base": "game:block/liquid/snow/normal6"}]}
 		}, 
 		"*-brick-*-free": {
 			"basis": {"base": "game:block/stone/brick/{material}1", "alternates": [{"base": "game:block/stone/brick/{material}2"}, {"base": "game:block/stone/brick/{material}3"}]}, 
@@ -52,7 +52,7 @@
 		"*-brick-*-snow": {
 			"basis": {"base": "game:block/stone/brick/{material}1", "alternates": [{"base": "game:block/stone/brick/{material}2"}, {"base": "game:block/stone/brick/{material}3"}]}, 
 			"pilars": {"base": "game:block/stone/rock/{material}1", "alternates": [{"base": "game:block/stone/rock/{material}2"}, {"base": "game:block/stone/rock/{material}3"}, {"base": "game:block/stone/rock/{material}4"}]}, 
-			"snowcover": {"base": "game:block/snow/normal1", "alternates": [{"base": "game:block/snow/normal2"}, {"base": "game:block/snow/normal3"}, {"base": "game:block/snow/normal4"}, {"base": "game:block/snow/normal5"}, {"base": "game:block/snow/normal6"}]}
+			"snowcover": {"base": "game:block/liquid/snow/normal1", "alternates": [{"base": "game:block/liquid/snow/normal2"}, {"base": "game:block/liquid/snow/normal3"}, {"base": "game:block/liquid/snow/normal4"}, {"base": "game:block/liquid/snow/normal5"}, {"base": "game:block/liquid/snow/normal6"}]}
 		}
 	}, 
 	"resistance": 3.5, 
