@@ -2,8 +2,8 @@ $modinfo = (Get-Content "modinfo.json" -Raw) | ConvertFrom-Json
 $modname = $modinfo.name -replace '\s',''
 $version = $modinfo.version
 $zipname = "$modname.$version.zip"
-$vsBinPath = "c:\VintageStory\1.18"
-$vsDataPath = "C:\VintageStory\1.18Data"
+$vsBinPath = "c:\VintageStory\1.19"
+$vsDataPath = "C:\VintageStory\1.19Data"
 
 $location = Get-Location
 
