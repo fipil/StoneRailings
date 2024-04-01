@@ -19,7 +19,7 @@
 	"sideopaque": {"all": "false"}, 
 	"variantgroups": [
 		{"code": "type"    , "states": ["rock"   , "cobble"   , "brick"                                                                                                              ]}, 
-		{"code": "material", "states": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite"]}, 
+		{"code": "material", "states": ["granite", "sandstone", "limestone", "peridotite", "phyllite", "basalt", "claystone", "conglomerate", "chalk", "chert", "andesite", "bauxite","slate"]}, 
 		{"code": "side"    , "states": ["north"  , "east"     , "south"    , "west"                                                                                                  ]}, 
 		{"code": "cover"   , "states": ["free"   , "snow"                                                                                                                            ]}
 	], 

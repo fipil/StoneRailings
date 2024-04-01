@@ -95,6 +95,14 @@
   "block-straightrailingbottom-cobble-bauxite": "Bauxite cobble railing base",
   "block-straightrailingbottom-brick-bauxite": "Bauxite brick railing base",
 
+  "block-slopingrailingbottom-rock-slate-*": "Sloping slate railing base",
+  "block-slopingrailingbottom-cobble-slate-*": "Sloping slate cobble railing base",
+  "block-slopingrailingbottom-brick-slate-*": "Sloping slate brick railing base",
+  "block-slopingrailingtop-slate-*": "Sloping slate railing",
+  "block-straightrailing-slate-*": "Slate railing",
+  "block-straightrailingbottom-cobble-slate": "Slate cobble railing base",
+  "block-straightrailingbottom-brick-slate": "Slate brick railing base",
+
   "block-cornerrailing-granite-*": "Granite corner railing",
   "block-cornerrailing-sandstone-*": "Sandstone corner railing",
   "block-cornerrailing-limestone-*": "Limestone corner railing",
@@ -106,6 +114,7 @@
   "block-cornerrailing-chalk-*": "Chalk corner railing",
   "block-cornerrailing-chert-*": "Chert corner railing",
   "block-cornerrailing-andesite-*": "Andesite corner railing",
-  "block-cornerrailing-bauxite-*": "Bauxite corner railing"
+  "block-cornerrailing-bauxite-*": "Bauxite corner railing",
+  "block-cornerrailing-slate-*": "Slate corner railing"
 
 }
